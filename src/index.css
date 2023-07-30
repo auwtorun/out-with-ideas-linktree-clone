@@ -1,0 +1,85 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  height: 100%;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(89,29,37);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.main {
+  margin-top: 48px;
+  padding-bottom: 48px;
+}
+
+.page-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.page-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: auto;
+  max-width: 680px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.list a {
+  display: flex;
+  border-radius: 25px;
+  margin: 16px;
+  background-color: white;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile {
+  width: 108px;
+  border-radius: 100%;
+
+}
+
+.personal-data h2,h3 {
+  margin: 0px;
+  color: #fff;
+}
+
+.personal-data h4 {
+  margin: 0px;
+  color: #b6b6b6;
+}
+
+.social-media ul {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  margin-inline: 6px;
+}
+
+.social-media svg {
+  font-size: 36px;
+  color: #fff;
+}
