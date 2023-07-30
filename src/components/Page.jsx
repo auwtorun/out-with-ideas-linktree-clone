@@ -10,14 +10,14 @@ const Page = () => {
   const links = [
     { title: 'Website', url: 'https://out-with-ideas/' },
     { title: 'Instagram', url: 'https://instagram.com/ide_copas' },
-    { title: 'Whatsapp', url: 'wa.me/6281288080998' },
+    { title: 'Whatsapp', url: 'https://wa.me/6281288080998' },
     { title: 'Menu', url: 'https://out-with-ideas/menu' }
   ];
 
   const socials = [
     { title: 'Instagram', img: <FaInstagram/>, url: 'https://instagram.com/ide_copas' },
     { title: 'Twitter', img: <FaTwitter/>, url: 'https://twitter.com/ide_copas' },
-    { title: 'Whatsapp', img: <FaWhatsapp/>, url: 'wa.me/6281288080998' }
+    { title: 'Whatsapp', img: <FaWhatsapp/>, url: 'https://wa.me/6281288080998' }
   ];
 
   const iconStyle = {
