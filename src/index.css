@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -15,7 +19,7 @@
 }
 
 .main {
-  margin-top: 48px;
+  margin-top: 72px;
   padding-bottom: 48px;
 }
 
@@ -32,7 +36,7 @@
 
 ul {
   margin: auto;
-  max-width: 680px;
+  max-width: 600px;
   padding: 0px;
 }
 
@@ -55,8 +59,9 @@ li {
 }
 
 .profile {
-  width: 108px;
+  width: 96px;
   border-radius: 100%;
+  margin-bottom: 8px;
 
 }
 
@@ -82,4 +87,13 @@ li {
 .social-media svg {
   font-size: 36px;
   color: #fff;
+}
+
+.list ul li a {
+  /* Tulis gaya Anda untuk .list ul li a di sini */
+  transition: transform 0.2s ease;
+}
+
+.list ul li a:hover {
+  transform: scale(102%); /* Ubah sesuai dengan kebutuhan Anda */
 }
