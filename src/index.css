@@ -46,7 +46,7 @@ li {
 
 .list a {
   display: flex;
-  border-radius: 25px;
+  border-radius: 16px;
   margin: 16px;
   background-color: white;
   height: 50px;
@@ -95,5 +95,5 @@ li {
 }
 
 .list ul li a:hover {
-  transform: scale(102%); /* Ubah sesuai dengan kebutuhan Anda */
+  transform: scale(103%); /* Ubah sesuai dengan kebutuhan Anda */
 }
