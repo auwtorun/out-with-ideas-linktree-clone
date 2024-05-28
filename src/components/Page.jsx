@@ -11,7 +11,7 @@ const Page = () => {
     { title: 'Website', url: 'https://out-with-ideas/' },
     { title: 'Instagram', url: 'https://instagram.com/ide_copas' },
     { title: 'Whatsapp', url: 'https://wa.me/6281288080998' },
-    { title: 'Menu', url: 'https://out-with-ideas/menu' }
+    { title: 'Menu', url: '/menu' }
   ];
 
   const socials = [

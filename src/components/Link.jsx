@@ -6,7 +6,7 @@ const LinkList = ({ links }) => {
       <ul>
         {links.map((link, index) => (
           <li key={index}>
-            <a href={link.url} target="_blank" rel="noopener noreferrer">
+            <a href={link.url} target="_self" rel="noopener noreferrer">
               {link.title}
             </a>
           </li>
